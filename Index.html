@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio | Café Catracho</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="oi oi-cup"></span> Café Catracho</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                aria-label="Menú"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.html"><span class="oi oi-home"></span>
+                            Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html"><span class="oi oi-list"></span>
+                            Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html"><span
+                                class="oi oi-envelope-closed"></span> Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="banner" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active"><img class="d-block w-100" src="https://picsum.photos/seed/cafe1/1400/500"
+                    alt="Promoción de café">
+                <div class="carousel-caption d-none d-md-block bg-dark rounded" style="opacity:.85">
+                    <h3>2x1 en café molido</h3>
+                    <p>Solo esta semana</p>
+                </div>
+            </div>
+            <div class="carousel-item"><img class="d-block w-100" src="https://picsum.photos/seed/cafe2/1400/500"
+                    alt="Café de Honduras">
+                <div class="carousel-caption d-none d-md-block bg-dark rounded" style="opacity:.85">
+                    <h3>Café 100% hondureño</h3>
+                    <p>De Copán a tu taza</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#banner" data-slide="prev"><span
+                class="carousel-control-prev-icon"></span></a>
+        <a class="carousel-control-next" href="#banner" data-slide="next"><span
+                class="carousel-control-next-icon"></span></a>
+    </div>
+    <div class="container mt-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">Inicio</li>
+            </ol>
+        </nav>
+        <h2 class="mb-4">Nuestros productos</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="Imgs/cafe-grano.jpg" alt="Café en grano">
+                    <div class="card-header">
+                        <h5 class="mb-0">Café en grano</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Tostado medio, aroma intenso y notas a chocolate.</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center"><strong>L
+                            180.00</strong><a href="contacto.html" class="btn btn-sm btn-warning"><span
+                                class="oi oi-cart"></span> Pedir</a></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="Imgs/cafe-molido.jpg" alt="Café molido">
+                    <div class="card-header">
+                        <h5 class="mb-0">Café molido</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Listo para tu cafetera, molienda media.</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center"><strong>L
+                            150.00</strong><a href="contacto.html" class="btn btn-sm btn-warning"><span
+                                class="oi oi-cart"></span> Pedir</a></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="Imgs/taza-artesanal.avif" alt="Taza artesanal">
+                    <div class="card-header">
+                        <h5 class="mb-0">Taza artesanal</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Cerámica hecha a mano en Honduras.</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center"><strong>L
+                            220.00</strong><a href="contacto.html" class="btn btn-sm btn-warning"><span
+                                class="oi oi-cart"></span> Pedir</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center py-3 mt-5"><small>© 2026 Café Catracho · Grupo 4</small></footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
