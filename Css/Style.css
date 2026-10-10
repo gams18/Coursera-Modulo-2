@@ -1,0 +1,37 @@
+body {
+    padding-top: 70px;
+    background: #faf7f2;
+}
+
+.navbar {
+    background: #4b2e1e !important;
+}
+
+.carousel-item img {
+    height: 380px;
+    object-fit: cover;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+}
+
+.table-scroll {
+    max-height: 280px;
+    overflow: auto;
+}
+
+footer {
+    background: #4b2e1e;
+    color: #fff;
+}
